@@ -1,0 +1,38 @@
+.DS_STORE
+.cache/
+.env
+.module-cache
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# testing
+coverage/
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Distribution directories
+dist/
+build/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# text editor
+.vscode
+*.sublime-project
+*.sublime-workspace
