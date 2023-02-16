@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.frame {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto;
+  column-gap: 60px;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.controlButton {
+  background-color: transparent;
+  border: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.indicators {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #f4bec9;
+}
+
+.activeIndicator {
+  background-color: #db284e;
+}

@@ -46,9 +46,10 @@ img {
 }
 
 #latest-reviews-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: max-content max-content;
+  column-gap: 50px;
 }
 
 #site-description {

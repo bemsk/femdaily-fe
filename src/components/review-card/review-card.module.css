@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+}
+
+.frame {
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 16px 16px 40px 16px;
+}
+
+.product {
+  display: flex;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 16px;
+}
+
+.productImage {
+  width: auto;
+  height: 100px;
+}
+
+.productInfo h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 32px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.info span {
+  font-size: 12px;
+  color: #ebebeb;
+}
+
+.reviewer {
+  position: relative;
+  top: -30px;
+}

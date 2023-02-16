@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+}
+.profileCardWrapper {
+  position: relative;
+  top: 12px;
+  left: 12px;
+  background-color: transparent;
+}
